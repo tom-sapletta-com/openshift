@@ -61,7 +61,7 @@ oc new-app https://github.com/openshift/ruby-hello-world
 # Openshift ansible
 https://github.com/openshift/openshift-ansible
 
-    dnf install -y ansible pyOpenSSL python-cryptography python-lxml
+    dnf install -y ansible pyOpenSSL python-cryptography python-lxml git
 
 
 ## Simple all-in-one localhost Installation
