@@ -17,3 +17,8 @@ git clone https://github.com/gshipley/installcentos.git
 
 cd installcentos
 ./install-openshift.sh
+
+
+## Check
+  
+  oc version
