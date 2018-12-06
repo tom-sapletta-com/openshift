@@ -28,6 +28,7 @@ cd installcentos
 
 https://developer.fedoraproject.org/deployment/openshift/about.html
 
+https://fedoramagazine.org/experimenting-docker-openshift/
 
 FEDORA
 ## Install
