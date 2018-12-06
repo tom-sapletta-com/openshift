@@ -52,5 +52,23 @@ registries = ['172.30.0.0/16']
 sudo systemctl restart docker
 oc cluster up
 
-
+## Example
 oc new-app https://github.com/openshift/ruby-hello-world
+
+
+
+
+# Openshift ansible
+https://github.com/openshift/openshift-ansible
+
+    dnf install -y ansible pyOpenSSL python-cryptography python-lxml
+
+
+## Simple all-in-one localhost Installation
+This assumes that you've installed the base dependencies and you're running on Fedora or RHEL
+
+    git clone https://github.com/openshift/openshift-ansible
+    cd openshift-ansible
+    sudo ansible-playbook -i inventory/hosts.localhost playbooks/prerequisites.yml
+    sudo ansible-playbook -i inventory/hosts.localhost playbooks/deploy_cluster.yml
+
